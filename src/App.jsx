@@ -1,9 +1,6 @@
-import { Modal, Form, Input } from "antd";
 import { HeaderComponent } from "./components/header-component/HeaderComponent";
 import { Wrapper } from "./components/wrapper/Wrapper";
-import { FaMinus, FaPen, FaPlus } from "react-icons/fa";
 import { useState } from "react";
-import { ButtonComponent } from "./components/button-component/ButtonComponent";
 import { FormComponent } from "./components/form-component/FormComponent";
 import { TaskComponent } from "./components/task-component/TaskComponent";
 

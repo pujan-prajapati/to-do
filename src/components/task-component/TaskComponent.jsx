@@ -41,8 +41,6 @@ export const TaskComponent = ({ tasks, setTasks }) => {
     };
     setTasks(completedTasks);
     handleOk();
-    console.log("Updated task at index", index, ":", completedTasks[index]);
-    console.log("After update:", completedTasks);
   };
 
   const getBgColor = (priority) => {
