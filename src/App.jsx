@@ -19,7 +19,7 @@ function App() {
   return (
     <>
       <Wrapper>
-        <HeaderComponent title={"My To-Do List"} />
+        <HeaderComponent title={"To-Do List"} />
 
         <FormComponent onFinish={handleTasks} />
 
